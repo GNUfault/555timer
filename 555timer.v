@@ -1,6 +1,4 @@
-`define VA
-
-module timer555 (vcc, gnd, trig, thres, reset, ctrl, out, disch);
+module 555timer (vcc, gnd, trig, thres, reset, ctrl, out, disch);
     inout vcc, gnd;
     input trig, thres, reset, ctrl;
     output out, disch;
